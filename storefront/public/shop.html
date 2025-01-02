@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siol Alpin - All Info & Shop</title>
+    <link rel="stylesheet" href="styles.css">
+        <script defer src="script.js"></script>
+                <!-- Favicon -->
+                <link rel="icon" href="images/logo.png" type="image/x-icon">
+                <!-- Alternative format for PNG -->
+                <link rel="icon" href="images/logo.png" type="image/png">
+</head>
+<body>
+    <!-- Logo Section -->
+    <div class="logo-section">
+        <div class="logo-container">
+            <img src="images/logo.png" alt="Siol Alpin Logo" class="logo-img"> <!-- PNG logo -->
+            <h1>Sìol Alpìn</h1>
+            <p>The Royal Descendants of Judah</p>
+        </div>
+    </div>
+
+    <!-- Main Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li class="separator"></li>
+                <li><a href="shop.html">Shop</a></li> <!-- Only Shop Link -->
+                <li class="separator"></li>
+                <li><a href="books.html">Books</a></li> <!-- Only Shop Link -->
+                
+            </ul>
+        </nav>
+        <div class="sub-nav-links2">
+            <div class="nav">
+                <button onclick="document.getElementById('shirts').scrollIntoView({behavior: 'smooth'})">Apparel Tops</button>
+                <button onclick="document.getElementById('pants').scrollIntoView({behavior: 'smooth'})">Bottoms</button>
+                <button onclick="document.getElementById('hats').scrollIntoView({behavior: 'smooth'})">Headwear</button>
+                <button onclick="document.getElementById('accessories').scrollIntoView({behavior: 'smooth'})">Accessories</button>
+                <a href="books.html">
+                <button data-section="books">Books</button></a>
+                <a href="droptimer.html">
+                <button data-section="Limitedreleases">Limited Releaases</button></a>
+            </div>
+
+
+
+
+            
+    </header>
+
+
+
+        <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        .shop-container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        .nav {
+
+            justify-content: center;
+            background-color: #007acc;
+            border-radius: 8px;
+
+        }
+
+        .nav button {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 17px;
+            padding: 7px;
+            margin: 0 10px;
+            cursor: pointer;
+       
+            transition: background-color 0.3s ease;
+        }
+
+        .nav button:hover, .nav button.active {
+            background-color: #005f99;
+            border-radius: 4px;
+        }
+
+        .section {
+            display: none;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+
+        .section.active {
+            display: block;
+        }
+
+        .section h2 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+            color: #007acc;
+        }
+
+        header {
+    background: #007acc;
+    color: white;
+    text-align: center;
+
+
+    padding-bottom: 0rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+    </style>
+</head>
+<body>
+
+
+
+
+    <script>
+        const buttons = document.querySelectorAll('.nav button');
+        const sections = document.querySelectorAll('.section');
+
+        buttons.forEach(button => {
+            button.addEventListener('click', () => {
+                buttons.forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
+
+                sections.forEach(section => {
+                    section.classList.remove('active');
+                    if (section.id === button.dataset.section) {
+                        section.classList.add('active');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+
+
+    <!-- Main Content for Shop -->
+
+
+    <section id="shop" class="shop-section">
+        <h2>Our Products</h2>
+        <div class="product-grid">
+        
+            <!-- Product 1 -->
+            <div class="product-card">
+                <img src="images/shop.png" alt="Product 1" class="product-img">
+                <h3 class="product-title">Product 1</h3>
+                <p class="product-description">From Ulster to Israel.</p>
+                <p class="product-price">$29.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+  
+            <!-- Product 2 -->
+             
+            <div class="product-card">
+                <img src="images/shop.png" alt="Product 2" class="product-img">
+                <h3 class="product-title">Product 2</h3>
+                <p class="product-description">This is a short description of the product.</p>
+                <p class="product-price">$49.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+
+            </div>
+
+
+
+
+            
+            <!-- Product 3 -->
+            <div class="product-card">
+                <img src="images/shop.png" alt="Product 3" class="product-img">
+                <h3 class="product-title">Product 3</h3>
+                <p class="product-description">This is a short description of the product.</p>
+                <p class="product-price">$39.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+
+         
+            <!-- Product 4 -->
+            <div class="product-card">
+                <img src="images/shop.png" alt="Product 4" class="product-img">
+                <h3 class="product-title">Product 4</h3>
+                <p class="product-description">This is a short description of the product.</p>
+                <p class="product-price">$19.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="images/shop.png" alt="Product 1" class="product-img">
+                <h3 class="product-title">Product 1</h3>
+                <p class="product-description">This is a short description of the product.</p>
+                <p class="product-price">$29.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+
+
+
+
+           
+            <!-- Product 2 -->
+            <div class="product-card">
+                <img src="images/shop.png" alt="Product 2" class="product-img">
+                <h3 class="product-title">Product 2</h3>
+                <p class="product-description">This is a short description of the product.</p>
+                <p class="product-price">$49.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+
+
+
+
+
+
+      
+            <!-- Product 3 -->
+            <div class="product-card">
+                <img src="images/shop.png" alt="Product 3" class="product-img">
+                <h3 class="product-title">Product 3</h3>
+                <p class="product-description">This is a short description of the product.</p>
+                <p class="product-price">$39.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card">
+                <img src="images/shop.png" alt="Product 4" class="product-img">
+                <h3 class="product-title">Product 4</h3>
+                <p class="product-description">This is a short description of the product.</p>
+                <p class="product-price">$19.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div><div class="product-card">
+                <img src="images/shop.png" alt="Product 1" class="product-img">
+                <h3 class="product-title">Product 1</h3>
+                <p class="product-description">This is a short description of the product.</p>
+                <p class="product-price">$29.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+                <img src="images/shop.png" alt="Product 2" class="product-img">
+                <h3 class="product-title">Product 2</h3>
+                <p class="product-description">This is a short description of the product.</p>
+                <p class="product-price">$49.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+
+    
+
+            <section id="accessories">
+            <!-- Product 3 -->
+            <div class="product-card">
+                <img src="images/shop.png" alt="Product 3" class="product-img">
+                <h3 class="product-title">Product 3</h3>
+                <p class="product-description">This is a short description of the product.</p>
+                <p class="product-price">$39.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div></section>
+
+
+
+            <!-- Product 4 -->
+            <div class="product-card">
+                <img src="images/shop.png" alt="Product 4" class="product-img">
+                <h3 class="product-title">Product 4</h3>
+                <p class="product-description">This is a short description of the product.</p>
+                <p class="product-price">$19.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        
+        <p>&copy; 2024 Siol Alpin Legacy. All rights reserved.</p>
+    </footer>
+</body>
+</html>
