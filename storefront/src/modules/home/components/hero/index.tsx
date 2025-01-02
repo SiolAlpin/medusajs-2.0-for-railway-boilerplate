@@ -11,7 +11,7 @@ const Hero = () => {
   
 
 
-  <link rel="icon" href="images/logo.png" type="image/png" />
+
   {/* Logo Section */}
   <div className="logo-section">
     <div className="logo-container">
