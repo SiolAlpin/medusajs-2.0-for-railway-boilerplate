@@ -7,13 +7,10 @@ const Hero = () => {
   <meta charSet="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Siol Alpin - All Info &amp; Shop</title>
-  <link rel="stylesheet" href="/styles.css" />
+  <link rel="stylesheet" href="../styles.css" />
   
 
-  <script defer src="/script.js"></script>
-  {/* Favicon */}
-  <link rel="icon" href="images/logo.png" type="image/x-icon" />
-  {/* Alternative format for PNG */}
+
   <link rel="icon" href="images/logo.png" type="image/png" />
   {/* Logo Section */}
   <div className="logo-section">
