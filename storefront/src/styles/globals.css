@@ -110,3 +110,498 @@
     @apply text-[32px] leading-[44px] font-semibold;
   }
 }
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff; /* Clean background */
+}
+
+/* Main Navigation Bar */
+.navbar {
+  background-color: #ffffff; /* Same as logo background */
+  text-align: center;
+  
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+
+}
+
+.nav-links li {
+  margin: 0 20px; /* Spacing between items */
+  
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  
+}
+
+/* Separator Line Between Home and Shop */
+.nav-links .separator {
+  border-left: 1px solid #ccc; /* Light gray vertical line */
+  height: 20px;
+  margin: 0 10px;
+  
+}
+
+/* Sub Navigation Bar */
+.sub-navbar {
+  background-color: #e1e1e1; /* Slightly darker than the main navbar */
+  padding: 5px 0;
+  text-align: center;
+  position: sticky;
+  top: 0;
+
+}
+
+.sub-nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sub-nav-links li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.sub-nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 17px; /* Smaller font size for sub-nav */
+  
+}
+
+
+
+/* Sub Navigation Bar */
+.sub-navbar2 {
+  background-color: #e1e1e1; /* Slightly darker than the main navbar */
+  padding: 5px 0;
+  text-align: center;
+  position: sticky;
+  top: 0;
+
+}
+
+.sub-nav-links2 {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sub-nav-links2 li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.sub-nav-links2 a {
+  text-decoration: none;
+  color: #333;
+  font-size: 17px; /* Smaller font size for sub-nav */
+  
+}
+
+
+/* Logo Section */
+.logo-section {
+  background-color: #ffffff;
+  padding-top: 28px;
+  padding-bottom: 13px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Light shadow for emphasis */
+}
+
+.logo-container h1 {
+  font-size: 48px;
+  color: #333;
+  margin: 0;
+  letter-spacing: 17px; /* Adjust this value for more or less spacing */
+  text-transform: uppercase; /* Converts text to all caps */
+  
+}
+
+@media (max-width: 461px) {
+  
+.logo-container h1 {
+  letter-spacing: 8px;
+}}
+
+
+.logo-container p {
+  font-size: 18px;
+  color: #777;
+  margin: 5px 0;
+}
+
+
+
+/* Section Styles */
+.info-section {
+  padding: 40px;
+  background-color: #fafafa;
+  margin: 20px 0;
+  border-radius: 8px; /* Rounded corners for a smoother look */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); /* Soft shadow */
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+footer {
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* PNG Logo Image Styling */
+.logo-img {
+  width: 71px; /* Adjust the size of the logo */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 13px; /* Space between logo and text */
+  
+}
+
+
+
+/* Accordion Button Styles */
+.accordion-btn {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 100%;
+  text-align: left;
+  font-size: 18px;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  
+}
+
+.accordion-btn:hover {
+  background-color: #f0f0f0;
+}
+
+/* Accordion Content Styles */
+.accordion-content {
+  padding: 20px;
+  background-color: #f9f9f9;
+  display: none;  /* Initially hidden */
+  border-left: 4px solid #007bff;
+  font-size: 16px;
+  color: #555;
+}
+
+/* Smooth Scroll Effect for Links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #ffffff;
+  text-align: center;
+  
+}
+
+.nav-links {
+  list-style: none;
+  padding: 7px;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+}
+
+/* Shop Section */
+.shop-section {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+h2 {
+  font-size: 28px;
+  margin: 21px;
+}
+
+/* Product Grid */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 30px;
+  justify-items: center;
+}
+
+/* Product Card */
+.product-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 300px;
+  padding: 20px;
+  text-align: center;
+}
+
+.product-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.product-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.product-description {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.product-price {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.add-to-cart {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+  background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .product-grid {
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .product-card {
+      max-width: 100%;
+      padding: 15px;
+  }
+
+  h2 {
+      font-size: 30px;
+  }
+}
+
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background: linear-gradient(to right, #f3f3f3, #ffffff);
+  color: #333;
+  overflow-x: hidden;
+}
+
+header {
+  background: #007acc;
+  color: white;
+  text-align: center;
+  padding: 1rem 0rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+header p {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+main {
+  padding: 2rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.scroll-section {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 4rem;
+  padding: 2rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+
+
+.scroll-section:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.scroll-section img {
+  flex: 1;
+  max-width: 50%;
+  border-radius: 12px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.scroll-section:hover img {
+  transform: scale(1.05);
+}
+
+.content {
+  flex: 2;
+}
+
+.content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #4a90e2;
+}
+
+.content p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+.references {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background: #f9f9fb;
+  border-left: 4px solid #4a90e2;
+  font-size: 0.9rem;
+}
+
+.references ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+
+.references ul li {
+  margin-bottom: 0.5rem;
+}
+
+.decorative-element {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: radial-gradient(circle, #4a90e2, transparent);
+  border-radius: 50%;
+  z-index: -1;
+  opacity: 0.2;
+}
+
+.decorative-element-1 {
+  bottom: 420px;
+  left: -50px;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: radial-gradient(circle, #4a90e2, transparent);
+  border-radius: 50%;
+  z-index: -1;
+  opacity: 0.2;
+
+}
+
+.decorative-element-2 {
+  bottom: -50px;
+  right: -50px;
+}
+
+footer {
+  background: linear-gradient(135deg, #4a90e2, #3b5998);
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+footer p {
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .scroll-section {
+      flex-direction: column;
+  }
+
+  .scroll-section img {
+      max-width: 100%;
+      margin-bottom: 1rem;
+  }
+
+  .content h2 {
+      font-size: 1.8rem;
+  }
+}
+
