@@ -15,7 +15,13 @@ const Hero = () => {
   {/* Logo Section */}
   <div className="logo-section">
     <div className="logo-container">
-      <Image src="/images/logo.png" alt="Siol Alpin Logo" className="logo-img" />{" "}
+
+      <Image
+      src="/logo.png"
+      width={500}
+      height={500}
+      alt="Siol Alpin Logo"
+    />
       {/* PNG logo */}
       <h1>Sìol Alpìn</h1>
       <p>The Royal Descendants of Judah</p>
@@ -65,7 +71,7 @@ const Hero = () => {
   <main>
     <section id="history" className="info-section">
       <div className="info-image">
-        <Image src="/images/KellsFol032vChristEnthroned.jpg" alt="About Us" />
+        <img src="/images/KellsFol032vChristEnthroned.jpg" alt="About Us" />
       </div>
       <div className="info-content">
         <h2>About Our Mission</h2>
@@ -134,7 +140,7 @@ const Hero = () => {
         </div>
       </section>
       <section className="scroll-section">
-        <Image src="/images/logo (8).png" alt="Medieval History" />
+        <img src="/images/logo (8).png" alt="Medieval History" />
         <div className="content">
           <h2>Modern Descendants of Alpín</h2>
           <p>
