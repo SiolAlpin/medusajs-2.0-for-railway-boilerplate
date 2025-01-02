@@ -1,6 +1,6 @@
 import { Github } from "@medusajs/icons"
 import { Button, Heading } from "@medusajs/ui"
-import Image from 'next/image'
+import Image from 'next/image';
 const Hero = () => {
   return (
  <>
@@ -15,13 +15,7 @@ const Hero = () => {
   {/* Logo Section */}
   <div className="logo-section">
     <div className="logo-container">
-
-      <Image
-      src="/images/logo.png"
-      width={500}
-      height={500}
-      alt="Siol Alpin Logo"
-    />
+      <Image src="/images/logo.png" alt="Siol Alpin Logo" className="logo-img" />{" "}
       {/* PNG logo */}
       <h1>Sìol Alpìn</h1>
       <p>The Royal Descendants of Judah</p>
@@ -71,7 +65,7 @@ const Hero = () => {
   <main>
     <section id="history" className="info-section">
       <div className="info-image">
-        <img src="/images/KellsFol032vChristEnthroned.jpg" alt="About Us" />
+        <Image src="/images/KellsFol032vChristEnthroned.jpg" alt="About Us" />
       </div>
       <div className="info-content">
         <h2>About Our Mission</h2>
@@ -140,7 +134,7 @@ const Hero = () => {
         </div>
       </section>
       <section className="scroll-section">
-        <img src="/images/logo (8).png" alt="Medieval History" />
+        <Image src="/images/logo (8).png" alt="Medieval History" />
         <div className="content">
           <h2>Modern Descendants of Alpín</h2>
           <p>
