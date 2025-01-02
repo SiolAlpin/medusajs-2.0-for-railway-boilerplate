@@ -1,33 +1,5 @@
 import { Github } from "@medusajs/icons"
 import { Button, Heading } from "@medusajs/ui"
-import Head from 'next/head';
-
-export default function HomePage() {
-  return (
-    <div>
-      {/* Link the CSS file */}
-      <Head>
-        <link rel="stylesheet" href="/styles.css" />
-      </Head>
-
-      <h1>Welcome to My Store!</h1>
-      <p>This is the homepage of my Medusa Next.js site.</p>
-    </div>
-  );
-}
-import Script from 'next/script';
-
-export default function HomePage() {
-  return (
-    <div>
-      <h1>Welcome to My Store!</h1>
-      <p>This is the homepage of my Medusa Next.js site.</p>
-
-      {/* Include the JS file */}
-      <Script src="/script.js" strategy="afterInteractive" />
-    </div>
-  );
-}
 
 const Hero = () => {
   return (
@@ -35,10 +7,10 @@ const Hero = () => {
   <meta charSet="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Siol Alpin - All Info &amp; Shop</title>
- 
+  <link rel="stylesheet" href="/styles.css" />
   
 
-
+  <script defer src="/script.js"></script>
   {/* Favicon */}
   <link rel="icon" href="images/logo.png" type="image/x-icon" />
   {/* Alternative format for PNG */}
