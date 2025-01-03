@@ -1,6 +1,6 @@
 import { Github } from "@medusajs/icons"
 import { Button, Heading } from "@medusajs/ui"
-import Image from 'next/image';
+import Image from 'next/image'
 import logo from '../../public/images/logo.jpg';
 const Hero = () => {
   return (
