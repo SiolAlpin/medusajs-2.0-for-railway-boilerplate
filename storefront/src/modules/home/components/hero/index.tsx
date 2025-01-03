@@ -16,7 +16,7 @@ const Hero = () => {
   {/* Logo Section */}
   <div className="logo-section">
     <div className="logo-container">
-    <img src="/images/logo.jpeg"  alt="Siol Alpin Logo" class="logo-img">
+    <img src="/images/mainlogo.png" class="logo-img">
 
       {/* PNG logo */}
       <h1>Sìol Alpìn</h1>
