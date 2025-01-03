@@ -1,6 +1,6 @@
 import { Github } from "@medusajs/icons"
 import { Button, Heading } from "@medusajs/ui"
-import Image from 'next/image';
+import Image from 'next/image'
 const Hero = () => {
   return (
  <>
@@ -17,7 +17,7 @@ const Hero = () => {
     <div className="logo-container">
 
       <Image
-      src="/logo.png"
+      src="images/logo.png"
       width={500}
       height={500}
       alt="Siol Alpin Logo"
