@@ -1,7 +1,7 @@
 import { Github } from "@medusajs/icons"
 import { Button, Heading } from "@medusajs/ui"
 import Image from 'next/image'
-import profilePic from './logo.png'
+
 
 const Hero = () => {
   
@@ -28,20 +28,9 @@ const Hero = () => {
       height={50}
       alt="Siol Alpin Logo"
     />
-       <Image
-      src={profilePic}
-      unoptimized
-      priority
- 
-  
-    />
 
-<img
-        src="/logo.png" // Path to the image in the public folder
-        alt="A description of the image"
-        width="500"
-        height="300"
-      />
+
+
       {/* PNG logo */}
       <h1>Sìol Alpìn</h1>
       <p>The Royal Descendants of Judah</p>
