@@ -16,8 +16,8 @@ const Hero = () => {
   {/* Logo Section */}
   <div className="logo-section">
     <div className="logo-container">
-    <img src="/images/logo.png" alt="Siol Alpin Logo"> 
-    
+    <img src="/images/KellsFol032vChristEnthroned.jpg" alt="About Us" />
+
       {/* PNG logo */}
       <h1>Sìol Alpìn</h1>
       <p>The Royal Descendants of Judah</p>
