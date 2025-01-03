@@ -5,14 +5,18 @@ import Image from 'next/image'
 
 const Hero = () => {
   
-  return (
+  return ( 
  <>
   <meta charSet="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Siol Alpin - All Info &amp; Shop</title>
 
   
-  
+  <Img
+          src="https://i.imgur.com/BR0i3N1.jpeg"
+          alt="Medusa"
+          className="mx-auto w-28"
+        />
 
 
 
