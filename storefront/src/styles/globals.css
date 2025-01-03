@@ -270,7 +270,7 @@ footer {
   width: 71px; /* Adjust the size of the logo */
   height: auto; /* Maintain aspect ratio */
   margin-bottom: 13px; /* Space between logo and text */
-  text-align: center;
+  display: inline !important;
   
 }
 
