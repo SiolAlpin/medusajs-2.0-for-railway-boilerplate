@@ -1,6 +1,5 @@
 const checkEnvVariables = require("./check-env-variables")
-const withImage=require('next-images')
-module.exports = withImage()
+
 checkEnvVariables()
 
 /**
