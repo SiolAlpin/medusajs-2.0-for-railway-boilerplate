@@ -2,7 +2,6 @@ import { Github } from "@medusajs/icons"
 import { Button, Heading } from "@medusajs/ui"
 import Image from 'next/image'
 import profilePic from './logo.png'
-export default function Page()
 
 const Hero = () => {
   
@@ -14,17 +13,6 @@ const Hero = () => {
 
   
   
-  return (
-    <div>
-      <h1>Welcome to My App</h1>
-      <Image
-        src={profilepic} // Use the imported path
-        alt="A description of the image"
-        width={500} // Desired width
-        height={300} // Desired height
-      />
-    </div>
-  );
 
 
 
