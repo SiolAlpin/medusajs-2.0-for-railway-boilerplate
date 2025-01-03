@@ -1,7 +1,11 @@
 import { Github } from "@medusajs/icons"
 import { Button, Heading } from "@medusajs/ui"
 import Image from 'next/image'
+import profilePic from './logo.png'
+export default function Page()
+
 const Hero = () => {
+  
   return (
  <>
   <meta charSet="UTF-8" />
@@ -9,6 +13,18 @@ const Hero = () => {
   <title>Siol Alpin - All Info &amp; Shop</title>
 
   
+  
+  return (
+    <div>
+      <h1>Welcome to My App</h1>
+      <Image
+        src={profilepic} // Use the imported path
+        alt="A description of the image"
+        width={500} // Desired width
+        height={300} // Desired height
+      />
+    </div>
+  );
 
 
 
@@ -17,12 +33,27 @@ const Hero = () => {
     <div className="logo-container">
 
       <Image
-      src="/images/logo.png"
+      src="/logo.png"
       unoptimized
-      width={500}
-      height={500}
+      priority
+      width={50}
+      height={50}
       alt="Siol Alpin Logo"
     />
+       <Image
+      src={profilePic}
+      unoptimized
+      priority
+ 
+  
+    />
+
+<img
+        src="/logo.png" // Path to the image in the public folder
+        alt="A description of the image"
+        width="500"
+        height="300"
+      />
       {/* PNG logo */}
       <h1>Sìol Alpìn</h1>
       <p>The Royal Descendants of Judah</p>
