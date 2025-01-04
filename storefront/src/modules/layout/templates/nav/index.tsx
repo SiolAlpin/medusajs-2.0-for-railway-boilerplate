@@ -14,25 +14,6 @@ export default async function Nav() {
       <header className="relative h-16 mx-auto border-b duration-200 bg-white border-ui-border-base">
         <nav className="content-container txt-xsmall-plus text-ui-fg-subtle flex items-center justify-between w-full h-full text-small-regular">
           <div className="flex-1 basis-0 h-full flex items-center">
-          <header>
-    <nav className="navbar">
-      <ul className="nav-links">
-        <li>
-          <a href="index.html">Home</a>
-        </li>
-        <li className="separator" />
-        <li>
-          <a href="shop.html">Shop</a>
-        </li>{" "}
-        {/* Only Shop Link */}
-        <li className="separator" />
-        <li>
-          <a href="books.html">Books</a>
-        </li>{" "}
-        {/* Only Shop Link */}
-      </ul>
-    </nav>
-  </header>
             <div className="h-full">
               <SideMenu regions={regions} />
 
@@ -84,6 +65,25 @@ export default async function Nav() {
           </div>
         </nav>
       </header>
+      <header>
+    <nav className="navbar">
+      <ul className="nav-links">
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li className="separator" />
+        <li>
+          <a href="shop.html">Shop</a>
+        </li>{" "}
+        {/* Only Shop Link */}
+        <li className="separator" />
+        <li>
+          <a href="books.html">Books</a>
+        </li>{" "}
+        {/* Only Shop Link */}
+      </ul>
+    </nav>
+  </header>
     </div>
   )
 }
