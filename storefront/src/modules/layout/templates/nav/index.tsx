@@ -19,9 +19,7 @@ export default async function Nav() {
 
             </div>
           </div>
-          <div className="h-4" />
-
-          <header>
+     
     <nav className="navbar">
       <ul className="nav-links">
         <li>
@@ -39,8 +37,8 @@ export default async function Nav() {
         {/* Only Shop Link */}
       </ul>
     </nav>
-  </header>
-</div>
+
+
           <div className="flex items-center h-full">
             <LocalizedClientLink
               href="/"
