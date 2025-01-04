@@ -19,26 +19,6 @@ export default async function Nav() {
 
             </div>
           </div>
-     
-    <nav className="navbar">
-      <ul className="nav-links">
-        <li>
-          <a href="index.html">Home</a>
-        </li>
-        <li className="separator" />
-        <li>
-          <a href="shop.html">Shop</a>
-        </li>{" "}
-        {/* Only Shop Link */}
-        <li className="separator" />
-        <li>
-          <a href="books.html">Books</a>
-        </li>{" "}
-        {/* Only Shop Link */}
-      </ul>
-    </nav>
-
-
           <div className="flex items-center h-full">
             <LocalizedClientLink
               href="/"
@@ -84,6 +64,25 @@ export default async function Nav() {
             </Suspense>
           </div>
         </nav>
+        <header>
+    <nav className="navbar">
+      <ul className="nav-links">
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li className="separator" />
+        <li>
+          <a href="shop.html">Shop</a>
+        </li>{" "}
+        {/* Only Shop Link */}
+        <li className="separator" />
+        <li>
+          <a href="books.html">Books</a>
+        </li>{" "}
+        {/* Only Shop Link */}
+      </ul>
+    </nav>
+
       </header>
     </div>
   )
