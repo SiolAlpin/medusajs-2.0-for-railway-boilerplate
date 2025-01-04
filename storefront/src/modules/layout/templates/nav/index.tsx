@@ -16,6 +16,25 @@ export default async function Nav() {
           <div className="flex-1 basis-0 h-full flex items-center">
             <div className="h-full">
               <SideMenu regions={regions} />
+              <header>
+    <nav className="navbar">
+      <ul className="nav-links">
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li className="separator" />
+        <li>
+          <a href="shop.html">Shop</a>
+        </li>{" "}
+        {/* Only Shop Link */}
+        <li className="separator" />
+        <li>
+          <a href="books.html">Books</a>
+        </li>{" "}
+        {/* Only Shop Link */}
+      </ul>
+    </nav>
+  </header>
             </div>
           </div>
 

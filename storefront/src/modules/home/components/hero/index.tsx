@@ -24,25 +24,7 @@ const Hero = () => {
     </div>
   </div>
   {/* Main Navigation Bar */}
-  <header>
-    <nav className="navbar">
-      <ul className="nav-links">
-        <li>
-          <a href="index.html">Home</a>
-        </li>
-        <li className="separator" />
-        <li>
-          <a href="shop.html">Shop</a>
-        </li>{" "}
-        {/* Only Shop Link */}
-        <li className="separator" />
-        <li>
-          <a href="books.html">Books</a>
-        </li>{" "}
-        {/* Only Shop Link */}
-      </ul>
-    </nav>
-  </header>
+
   {/* Sub Navigation Bar (For Page Sections) */}
   <nav className="sub-navbar">
     <ul className="sub-nav-links">
