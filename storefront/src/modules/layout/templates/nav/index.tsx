@@ -82,7 +82,7 @@ export default async function Nav() {
         {/* Only Shop Link */}
       </ul>
     </nav>
-
+  </header>
       </header>
     </div>
   )
