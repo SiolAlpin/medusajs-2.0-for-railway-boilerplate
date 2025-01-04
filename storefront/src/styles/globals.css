@@ -215,7 +215,7 @@ body {
 /* Logo Section */
 .logo-section {
   background-color: #ffffff;
-  padding-top: 28px;
+  padding-top: 5.3rem;
   padding-bottom: 13px;
   text-align: center;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Light shadow for emphasis */
@@ -250,6 +250,7 @@ body {
   padding: 40px;
   background-color: #fafafa;
   margin: 20px 0;
+  max-width: 88%;
   border-radius: 8px; /* Rounded corners for a smoother look */
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); /* Soft shadow */
 }
@@ -461,10 +462,9 @@ header {
   background: #007acc;
   color: white;
   text-align: center;
-  padding: 1rem 0rem;
+  padding: 0.4rem 0rem;
   position: sticky;
   top: 0;
-  z-index: 1000;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -491,6 +491,8 @@ main {
   gap: 2rem;
   margin-bottom: 4rem;
   padding: 2rem;
+  max-width: 88%;
+  margin: 2rem auto;
   background: white;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -500,7 +502,7 @@ main {
 
 
 
-.scroll-section:hover {
+-section:hover {
   transform: scale(1.02);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
