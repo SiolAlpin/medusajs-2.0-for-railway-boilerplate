@@ -11,34 +11,44 @@ export default async function Nav() {
 
   return (
     <div className="sticky top-0 inset-x-0 z-50 group">
+      {/* First Header */}
       <header className="relative h-16 mx-auto border-b duration-200 bg-white border-ui-border-base">
         <nav className="content-container txt-xsmall-plus text-ui-fg-subtle flex items-center justify-between w-full h-full text-small-regular">
           <div className="flex-1 basis-0 h-full flex items-center">
             <div className="h-full">
               <SideMenu regions={regions} />
-
             </div>
           </div>
-          <header>
-    <nav className="navbar">
-      <ul className="nav-links">
-        <li>
-          <a href="index.html">Home</a>
-        </li>
-        <li className="separator" />
-        <li>
-          <a href="shop.html">Shop</a>
-        </li>{" "}
-        {/* Only Shop Link */}
-        <li className="separator" />
-        <li>
-          <a href="books.html">Books</a>
-        </li>{" "}
-        {/* Only Shop Link */}
-      </ul>
-    </nav>
-  </header>
-
+        </nav>
+      </header>
+  
+      {/* Add spacing between headers */}
+      <div className="h-4" /> {/* Spacer div for separation */}
+  
+      {/* Second Header */}
+      <header className="bg-gray-100">
+        <nav className="navbar">
+          <ul className="nav-links flex space-x-4 justify-center py-2">
+            <li>
+              <a href="index.html" className="text-blue-500 hover:underline">
+                Home
+              </a>
+            </li>
+            <li className="separator" />
+            <li>
+              <a href="shop.html" className="text-blue-500 hover:underline">
+                Shop
+              </a>
+            </li>
+            <li className="separator" />
+            <li>
+              <a href="books.html" className="text-blue-500 hover:underline">
+                Books
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
           <div className="flex items-center h-full">
             <LocalizedClientLink
               href="/"
