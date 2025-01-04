@@ -16,7 +16,10 @@ export default async function Nav() {
           <div className="flex-1 basis-0 h-full flex items-center">
             <div className="h-full">
               <SideMenu regions={regions} />
-              <header>
+
+            </div>
+          </div>
+          <header>
     <nav className="navbar">
       <ul className="nav-links">
         <li>
@@ -35,8 +38,6 @@ export default async function Nav() {
       </ul>
     </nav>
   </header>
-            </div>
-          </div>
 
           <div className="flex items-center h-full">
             <LocalizedClientLink
