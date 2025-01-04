@@ -69,16 +69,16 @@ export default async function Nav() {
     <nav className="navbar">
       <ul className="nav-links">
         <li>
-          <a href="index.html">Home</a>
+          <a href="/">Home</a>
         </li>
         <li className="separator" />
         <li>
-          <a href="shop.html">Shop</a>
+          <a href="/store">Shop</a>
         </li>{" "}
         {/* Only Shop Link */}
         <li className="separator" />
         <li>
-          <a href="books.html">Books</a>
+          <a href="/books">Books</a>
         </li>{" "}
         {/* Only Shop Link */}
       </ul>
