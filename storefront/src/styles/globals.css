@@ -215,8 +215,8 @@ body {
 /* Logo Section */
 .logo-section {
   background-color: #ffffff;
-  padding-top: 5.3rem;
-  padding-bottom: 13px;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
   text-align: center;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Light shadow for emphasis */
 }
