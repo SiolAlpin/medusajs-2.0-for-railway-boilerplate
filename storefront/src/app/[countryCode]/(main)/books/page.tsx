@@ -1,10 +1,10 @@
 import { Metadata } from "next"
 
-import { SortOptions } from "@modules/store/components/refinement-list/sort-products"
-import StoreTemplate from "@modules/store/templates"
+import { SortOptions } from "@modules/books/components/refinement-list/sort-products"
+import StoreTemplate from "@modules/books/templates"
 
 export const metadata: Metadata = {
-  title: "Store3",
+  title: "Books",
   description: "Explore all of our products.",
 }
 
