@@ -4,7 +4,7 @@ import { SortOptions } from "@modules/store/components/refinement-list/sort-prod
 import StoreTemplate from "@modules/store/templates"
 
 export const metadata: Metadata = {
-  title: "Stor3",
+  title: "Store3",
   description: "Explore all of our products.",
 }
 
