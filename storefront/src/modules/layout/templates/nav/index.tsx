@@ -72,7 +72,7 @@ export default async function Nav() {
           <a href="/">Home</a>
         </li>
         <li>
-          <a href="/store3">store2</a>
+          <a href="/books">store2</a>
         </li>
         <li className="separator" />
         <li>
