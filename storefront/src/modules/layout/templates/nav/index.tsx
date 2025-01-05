@@ -78,7 +78,7 @@ export default async function Nav() {
         {/* Only Shop Link */}
         <li className="separator" />
         <li>
-          <a href="/books">Books</a>
+          <a href="/store2">Books</a>
         </li>{" "}
         {/* Only Shop Link */}
       </ul>
