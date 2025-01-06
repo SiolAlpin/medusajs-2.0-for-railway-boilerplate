@@ -30,10 +30,10 @@ const Hero = () => {
   <nav className="sub-navbar">
     <ul className="sub-nav-links">
       <li>
-        <a href="#history">About Us</a>
+        <a href="#history">Our Mission</a>
       </li>
       <li>
-        <a href="#alpin">History</a>
+        <a href="#alpin">About Alpin</a>
       </li>
       <li>
         <a href="#descendants">Lineage</a>
@@ -42,7 +42,7 @@ const Hero = () => {
         <a href="#decleration">Decleration</a>
       </li>
       <li>
-        <a href="#fergus">Fergus</a>
+        <a href="#fergus">Stone of Destiny</a>
       </li>
     </ul>
   </nav>
@@ -57,7 +57,7 @@ const Hero = () => {
         <p>
           {" "}
           Thank you for exploring our collection. At <strong>
-            SIOL ALPÌN
+          SIOL ALPÌN
           </strong>{" "}
           we are dedicated to honoring Scotland's rich heritage while supporting
           its local communities. As a descendant of Alpin through my Mothers
