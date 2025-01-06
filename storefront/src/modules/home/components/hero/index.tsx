@@ -112,7 +112,7 @@ const Hero = () => {
           <div className="references">
             <h3>References:</h3>
             <ul>
-              <li>Jones, R. (2021). *Empires of the Ancient World.*</li>
+              <li>Jones, R. (2022). *Empires of the Ancient World.*</li>
               <li>Brown, T. (2019). *The Rise and Fall of Empires.*</li>
             </ul>
           </div>
