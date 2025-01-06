@@ -33,16 +33,16 @@ const Hero = () => {
         <a href="#history">About Us</a>
       </li>
       <li>
-        <a href="#history">History</a>
+        <a href="#alpin">History</a>
       </li>
       <li>
-        <a href="#myths">Myths</a>
+        <a href="#descendants">Lineage</a>
       </li>
       <li>
-        <a href="#stone">The Stone</a>
+        <a href="#decleration">Decleration</a>
       </li>
       <li>
-        <a href="#connections">Connections</a>
+        <a href="#fergus">Fergus</a>
       </li>
     </ul>
   </nav>
@@ -85,7 +85,7 @@ const Hero = () => {
       <div className="decorative-circle decorative-circle-2" />
     </section>
     <main>
-      <section className="scroll-section">
+      <section id="alpin" className="scroll-section">
         <img src="/images/Ftree.jpg" alt="Medieval History" />
         <div className="content">
           <h2>About Alpín</h2>
@@ -118,7 +118,7 @@ const Hero = () => {
           </div>
         </div>
       </section>
-      <section className="scroll-section">
+      <section id="descendants" className="scroll-section">
         <img src="/images/logo (8).png" alt="Medieval History" />
         <div className="content">
           <h2>Modern Descendants of Alpín</h2>
@@ -147,7 +147,7 @@ const Hero = () => {
           </div>
         </div>
       </section>
-      <section className="scroll-section">
+      <section id="decleration" className="scroll-section">
         <img
           src="/images/1200px-Declaration_of_arbroath.jpg"
           alt="The Renaissance"
@@ -182,7 +182,7 @@ const Hero = () => {
           </div>
         </div>
       </section>
-      <section className="scroll-section">
+      <section id="fergus" className="scroll-section">
         <img src="/images/logo (9).png" alt="The Renaissance" />
         <div className="content">
           <h2>Fergus Mor</h2>
