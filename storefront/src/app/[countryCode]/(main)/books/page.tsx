@@ -1,5 +1,5 @@
 import React from "react";
-
+import "styles/globals.css"
 const Books = () => {
   return (
 <>
@@ -10,11 +10,8 @@ const Books = () => {
     href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
     rel="stylesheet"
   />
-  <link rel="stylesheet" href="styles.css" />
-  {/* Favicon */}
-  <link rel="icon" href="images/logo.png" type="image/x-icon" />
-  {/* Alternative format for PNG */}
-  <link rel="icon" href="images/logo.png" type="image/png" />
+
+
   <style
     dangerouslySetInnerHTML={{
       __html:
@@ -23,7 +20,7 @@ const Books = () => {
   />
   <div className="logo-section">
     <div className="logo-container">
-      <img src="images/logo.png" alt="Siol Alpin Logo" className="logo-img" />{" "}
+      <img src="/images/logo.png" alt="Siol Alpin Logo" className="logo-img" />{" "}
       {/* PNG logo */}
       <h1>Sìol Alpìn</h1>
       <p>The Royal Descendants of Judah</p>
@@ -34,16 +31,16 @@ const Books = () => {
     <nav className="navbar">
       <ul className="nav-links">
         <li>
-          <a href="index.html">Home</a>
+          <a href="/">Home</a>
         </li>
         <li className="separator" />
         <li>
-          <a href="shop.html">Shop</a>
+          <a href="/shop">Shop</a>
         </li>{" "}
         {/* Only Shop Link */}
         <li className="separator" />
         <li>
-          <a href="books.html">Books</a>
+          <a href="/books">Books</a>
         </li>{" "}
         {/* Only Shop Link */}
       </ul>
@@ -76,7 +73,7 @@ const Books = () => {
       {/* Book 1 */}
       <div className="book-card">
         <img
-          src="images/Screenshot 2024-12-20 at 12.44.41 PM.png"
+          src="/images/booksoon.png"
           alt="Book 1"
         />
         <div className="book-content">
@@ -91,7 +88,7 @@ const Books = () => {
       {/* Book 2 */}
       <div className="book-card">
         <img
-          src="images/1DDFE633-2B85-468D-B28D05ADAE7D1AD8_source.webp"
+          src="/images/booksoon"
           alt="Book 2"
         />
         <div className="book-content">
@@ -106,7 +103,7 @@ const Books = () => {
       {/* Book 3 */}
       <div className="book-card">
         <img
-          src="images/1DDFE633-2B85-468D-B28D05ADAE7D1AD8_source.webp"
+          src="/images/booksoon"
           alt="Book 3"
         />
         <div className="book-content">
