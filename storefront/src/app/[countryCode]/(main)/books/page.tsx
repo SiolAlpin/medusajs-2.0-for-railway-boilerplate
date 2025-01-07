@@ -28,29 +28,13 @@ const Books = () => {
   </div>
   <header>
     <h1>Books for Sale</h1>
-    <nav className="navbar">
-      <ul className="nav-links">
-        <li>
-          <a href="/">Home</a>
-        </li>
-        <li className="separator" />
-        <li>
-          <a href="/shop">Shop</a>
-        </li>{" "}
-        {/* Only Shop Link */}
-        <li className="separator" />
-        <li>
-          <a href="/books">Books</a>
-        </li>{" "}
-        {/* Only Shop Link */}
-      </ul>
-    </nav>
+   
   </header>
   <main className="container">
     {/* Highlighted Latest Release */}
     <section className="highlighted-book">
       <img
-        src="images/Screenshot 2024-12-20 at 12.42.00 PM.png"
+        src="/images/nineveh.png"
         alt="Latest Book"
       />
       <div className="highlighted-content">
@@ -88,7 +72,7 @@ const Books = () => {
       {/* Book 2 */}
       <div className="book-card">
         <img
-          src="/images/booksoon"
+          src="/images/booksoon.png"
           alt="Book 2"
         />
         <div className="book-content">
@@ -103,7 +87,7 @@ const Books = () => {
       {/* Book 3 */}
       <div className="book-card">
         <img
-          src="/images/booksoon"
+          src="/images/booksoon.png"
           alt="Book 3"
         />
         <div className="book-content">
