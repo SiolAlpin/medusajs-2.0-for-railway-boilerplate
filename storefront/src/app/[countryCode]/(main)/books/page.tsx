@@ -20,7 +20,7 @@ const Books = () => {
   />
   <div className="logo-section">
     <div className="logo-container">
-      <img src="/images/logo.png" alt="Siol Alpin Logo" className="logo-img" />{" "}
+      <img src="/images/mainlogo.png" alt="Siol Alpin Logo" className="logo-img" />{" "}
       {/* PNG logo */}
       <h1>Sìol Alpìn</h1>
       <p>The Royal Descendants of Judah</p>
